@@ -6,6 +6,6 @@ int main(){
   
   scanf("%f", &salario_base);
   salario_total = (salario_base*1.05)-(salario_base*0.07);
-  printf("%f", salario_total);
+  printf("%.2f", salario_total);
 
 }
